@@ -146,3 +146,44 @@ nav .logo img {
 .read-section h2{
     margin-bottom: 2rem;
 }
+footer{
+    padding: 2rem 0;
+}
+.footer-section{
+    background-color: var(--very-dark-cyan);
+    color: var(--very-pale-blue);
+}
+.footer-top-curve img{
+    background-color: #fff;
+    width: 100%;
+}
+footer .columns{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+footer .columns > *{
+    max-width: 450px;
+}
+footer .columns .left-column .footer-text {
+    margin: 1rem 0;
+}
+footer .columns .left-column .contact{
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+footer .columns .right-column p{
+    margin: 1rem 0;
+}
+footer .columns .right-column .newsletter-input{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.footer .columns .right-column .newsletter-input input{
+    padding: .25rem;
+    border-radius: .25rem;
+    outline: 0;
+}
