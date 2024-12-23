@@ -132,3 +132,17 @@ nav .logo img {
     background-color: #fff;
     width: 100%;
 }
+.grow-section-bottom-curve img,.yours-users-bottom-curve img{
+    background-color: #fff;
+    width: 100%;
+}
+.flowing-conversations-container .section-flex{
+    flex-direction: row-reverse;
+}
+.read-section{
+    text-align: center;
+    margin: 8rem 0;
+}
+.read-section h2{
+    margin-bottom: 2rem;
+}
