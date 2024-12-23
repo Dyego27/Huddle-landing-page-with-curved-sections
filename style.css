@@ -125,6 +125,10 @@ nav .logo img {
     font-size: 4rem;
     font-weight: 700;
 }
-.grow-section-contai{
-
+.grow-section-container,.your-users-container{
+    background-color: var(--very-pale-blue);
+}
+.grow-section-top-curve img,.your-users-top-curve img{
+    background-color: #fff;
+    width: 100%;
 }
