@@ -116,6 +116,7 @@ nav .logo img {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-top: 6rem;
 }
 .hero-stats .stat-icon{
     width: 32px;
