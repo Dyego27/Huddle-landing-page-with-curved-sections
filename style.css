@@ -188,3 +188,45 @@ footer .columns .right-column .newsletter-input{
     border-radius: .25rem;
     outline: 0;
 }
+@media (max-width: 768px) {
+    .section-flex{
+        gap: 6rem;
+    }
+}
+@media (max-width: 540px) {
+    .start-btn{
+        padding: .5rem 3rem;
+    }
+    nav .logo img{
+        width: 130px;
+    }
+    .hero-stats{
+        flex-direction: column;
+        gap: 8rem;
+    }
+    .hero-stats .stat{
+        width: min-content;
+        margin: auto;
+    }
+    .section-flex{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .flowing-conversations-container .section-flex{
+        flex-direction: column-reverse;
+    }
+    footer{
+        padding: 6rem 0 2rem 0;
+    }
+    footer .columns {
+        flex-direction: column-reverse;
+        gap: 4rem;
+    }
+    footer .columns .right-column .newsletter-input input{
+        width: 100%;
+        padding: .75rem .5rem;
+    }
+    .Subscribe-btn{
+        margin-left: auto;
+    }
+}
